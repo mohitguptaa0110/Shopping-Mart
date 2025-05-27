@@ -2,6 +2,7 @@ import { CDN_URL } from "../utils/constants";
 
 const ResturantCard = (props) => {
   const { resData } = props;
+  // console.log(resData)
   const {
     name,
     cuisines,
@@ -16,6 +17,7 @@ const ResturantCard = (props) => {
     <div
       className="res-card w-[300px] h-[300px] m-2 p-2 transition-transform duration-300 
     hover:scale-105 hover:shadow-xl rounded-lg relative overflow-hidden flex flex-col"
+    data-testid = "ResId"
     >
       <div className="relative w-full h-[170px] mb-3">
         <img

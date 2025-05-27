@@ -39,6 +39,7 @@ const Body = () => {
         <div className="px-4 py-1 m-1 border border-gray-300 rounded-full shadow-sm">
           <input
             type="text"
+            data-testid="searchInput"
             className="outline-none pr-6"
             value={textWritten}
             onChange={(e) => {
